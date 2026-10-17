@@ -8,3 +8,23 @@
 #cabinet-preview .brand {max-width:100%}
 @media(min-width:1100px) {#cabinet-preview .hero, #cabinet-preview section, #cabinet-preview nav, #cabinet-preview footer, #cabinet-preview .notice {padding-left:max(6%, calc((100% - 1120px)/2));padding-right:max(6%, calc((100% - 1120px)/2))}}
 @media(max-width:400px) {#cabinet-preview nav {padding:20px 5%}#cabinet-preview .brand {font-size:17px}#cabinet-preview .brand img {width:60px!important;height:60px!important}#cabinet-preview .links {gap:16px}#cabinet-preview .row {flex-wrap:wrap}}
+
+#cabinet-preview .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+#cabinet-preview .diplomas{margin-top:26px}
+#cabinet-preview .diplomas h3{font-size:20px}
+#cabinet-preview .diplomas ul{padding-left:20px;margin:0;color:#586b7d;font-size:14px}
+#cabinet-preview .diplomas li{margin-bottom:14px;padding-left:5px}
+#cabinet-preview .phone-list{display:flex;flex-direction:column;gap:8px;font-size:20px;margin:0 0 20px}
+#cabinet-preview .contact>.action{margin-bottom:20px}
+#cabinet-preview .whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:30;display:flex;align-items:center;gap:10px;border-radius:40px;padding:14px 18px;background:#128c4a;color:#fff;box-shadow:0 5px 20px #153b6033;font-size:14px;font-weight:600}
+#cabinet-preview footer{padding-bottom:100px}
+@media(max-width:650px){#cabinet-preview .cards{grid-template-columns:1fr}#cabinet-preview .whatsapp-float{right:16px;bottom:16px;padding:13px}#cabinet-preview .whatsapp-float span{display:none}}
+
+#cabinet-preview .google-map{width:100%;height:420px;border:0;border-radius:14px;display:block;background:#edf4fb}
+#cabinet-preview #med-reviews{background:#edf4fb}
+#cabinet-preview .review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+#cabinet-preview blockquote{margin:14px 0 20px;font-size:15px;line-height:1.7}
+#cabinet-preview .stars{color:#a96300;font-size:20px;letter-spacing:3px}
+#cabinet-preview .review-source{font-size:12px;margin-top:20px;max-width:100%}
+@media(max-width:650px){#cabinet-preview .review-grid{grid-template-columns:1fr}#cabinet-preview .google-map{height:340px}}
+
